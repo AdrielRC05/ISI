@@ -223,34 +223,21 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 ### 6.1 Descripción detallada UC-05 — Actualizar perfil
 
-**Identificador y nombre del caso de uso:** UC-05 · Actualizar perfil.
+**Identificador y nombre del caso de uso:** [Indica el caso.]
 
-**Objetivo:** El participante quiere actualizar su propio perfil y conservar los cambios.
+**Objetivo:** [Explica qué resultado pretende obtener el participante.]
 
-**Participantes:** Un usuario registrado como actor principal.
+**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
 
-**Precondiciones:** El usuario tiene una cuenta activa y la sesión iniciada.
+**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
 
-**Inicio:** El usuario solicita actualizar su perfil.
+**Inicio:** [Indica qué acción o suceso inicia el caso.]
 
-**Escenario principal de éxito:** 
-1. El sistema presenta los datos actuales y distingue los valores editables de los que permanecen fijos.
-2. El usuario modifica los valores permitidos.
-3. El usuario solicita guardar los cambios.
-4. El sistema comprueba los datos según las reglas del acta.
-5. El sistema guarda conjuntamente los cambios en el perfil.
-6. El sistema confirma la actualización.
+**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
 
-**Extensiones (flujos alternativos):** 
-- 5a:
-  1. El sistema identifica los campos afectados y explica la correción necesaria.
-  2. El sistema conserva los valores introducidos y no guarda ningún cambio.
-  3. El usuario corrige los datos.
-  4. El flujo vuelve al paso 4.
+**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
-**Postcondiciones:** 
-- Con exito: el perfil contiene los cambios guardados y el usuario recibe la confirmación.
-- El salias y el correo electrónico mantienen su contenido.
+**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
@@ -258,15 +245,15 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
-**Identificador y nombre del caso de uso:** UC-21 · Buscar recetas
+**Identificador y nombre del caso de uso:** [Indica el caso.]
 
-**Objetivo:** El usuario quiere localizar una receta que cumpla sus criterios y consultar sus detalles.
+**Objetivo:** [Explica qué resultado pretende obtener el participante.]
 
-**Participantes:** Un usuario registrado como actor principal.
+**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
 
-**Precondiciones:** El usuario debe tener un cuenta activa y la sesión iniciada.
+**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
 
-**Inicio:** 
+**Inicio:** [Indica qué acción o suceso inicia el caso.]
 
 **Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
 
